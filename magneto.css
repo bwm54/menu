@@ -3,7 +3,7 @@
 	font-family: 'Playfair Display', serif;
 	font-weight: 900;
 	text-transform: uppercase;
-	color: #FF8b74;
+	color: black;
 	line-height: 0.8;
 	margin: 0 0 1em 0;
 }
@@ -32,4 +32,11 @@
 	fill: currentColor;
 	opacity: 0;
 	transform-origin: 50% 50%;
+}
+
+p{
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	color: black;
 }

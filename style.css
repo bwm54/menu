@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  h1{
+    text-align: center;
+    font-size: 30px;
+
+    padding:75;
+   
+}
+p{
+text-align: center;
+font-size: 50px;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-left:600px;
+}
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  body h1{
+      padding: 50px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 50px;
+  }
+  /* SECTION 1 */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10 100px;
+  }
+  
+  
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+    /* SECTION 2 */
+  .row2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10 100px;
+  }
+
+  
+  .column2 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column2 img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+   /* SECTION 3 */
+  .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10 100px;
+  }
+  .column3 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column3 img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+a{
+    font-size:1em;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+	text-decoration: underline;
+	font-weight:300;
+	letter-spacing: 2px;
+	padding: 0 5px;
+    color:black;
+
+	
+}
+
+h3 {
+	margin: 0 0 20px 0;
+   font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+	margin: 0;
+	padding-left: 130px;
+    padding-top: 30px;
+    
+	font-size: 2em;
+	letter-spacing: 2px;
+	font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media (max-width: 1200px) {
+        .column, .column2, .column3{
+          flex: 33%;
+          max-width: 33%;
+        }
+      }
+
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media (max-width: 800px) {
+    .column, .column2, .column3{
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column, .column2, .column3{
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+

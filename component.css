@@ -31,6 +31,12 @@ body {
     background: #333;
     font-size: 0.9em;
     font-weight: 300;
+	text-align: left;
+}
+
+body p {
+	font-size: 50px;
+	text-align: left;
 }
 
 a {
@@ -41,6 +47,9 @@ a {
 	padding: 0 5px;
 	text-transform: uppercase;
 	font-size: 80%;
+	text-decoration: underline;
+
+	
 }
 
 a:hover {
@@ -58,6 +67,7 @@ a:hover {
     flex-wrap: wrap;
     font-size: 30px;
     text-align: center;
+	
 
 }
 .random{
@@ -121,8 +131,6 @@ a:hover {
 	height: 100%;
 	cursor: pointer;
 	opacity: 1;
-	/* Centering with flexbox */
-    
     display: flex;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
@@ -218,9 +226,8 @@ div.bl-panel-items > div > div {
 /* Custom content */
 
 .bl-content p {
-	position: fixed;
-	right:3%;
-	width: 50%;
+	
+	text-align: left;
 	font-size: 30px;
 
 }
@@ -229,10 +236,12 @@ div.bl-panel-items > div > div {
 	position: fixed;
 	left:3%;
 
+
+
 }
 
 .bl-content h2 {
-	font-size: 3em;
+	font-size:3em;
 	font-weight: 300;
 	margin: 0 0 20px 0;
 }
@@ -388,9 +397,6 @@ div.bl-panel-items > div.bl-hide-current-work {
 	z-index: 0;
 }
 
-/* Transition classes and properties */
-/* Separated for a better overview and control */
-
 .bl-main > section {
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
@@ -529,14 +535,12 @@ input[type=text], select, text
     margin-top: 6px;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
     .area1, .area2, input[type=submit] {
       width: 100%;
@@ -586,3 +590,4 @@ input[type=text], select, text
     }
     
   }
+  
